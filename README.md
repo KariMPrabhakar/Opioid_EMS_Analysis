@@ -9,24 +9,37 @@ The opioid crisis remains a critical public health concern, with far-reaching im
 
 # Graph 1: Temporal Distribution of Opioid Incidents - "Distribution of Opioid use Incidents Based on Time of Day." This graph gives insights into the broader distribution of opioid-related incidents, illustrating the temporal patterns of opioid-related incidents throughout the day. By examining the frequency of incidents at different times, we can identify peak periods and potential trends in opioid emergencies.
 
+![Distribution of Opioid use Incidents Based on Time of Day](https://github.com/KariMPrabhakar/Opioid_EMS_Analysis/blob/main/Narcan_Opioid_Time_of_Day.png)
+
+
 # Graph 2 & 3: # Graphs: Comparative Analysis - "Narcan Administration Across Years" "Opioid Use Across Years"
 
+![Narcan Administration Across Years and Opioid Use Across Years](https://github.com/KariMPrabhakar/Opioid_EMS_Analysis/blob/main/Narcan_Opioid_Across_Years.png)
 
 
-# Graph 4: Distribution of Gender - The bar plot illustrates the distribution of gender within the subset of opioid-related incidents where opioid use is recorded as 'Yes.' The visual representation showcases the count of male and female. This focused analysis provides insights into the gender distribution specifically among cases where opioids were confirmed to be used.
 
+# Graph 4: Distribution of Gender - The bar plot illustrates the distribution of gender within the subset of opioid-related incidents where opioid use is recorded as 'Yes.' The visual representation showcases the count of male and female. This focused analysis provides insights into the gender distribution specifically among cases where opioids were confirmed to be used...
+
+![Distribution of Gender in Opioid Use](https://github.com/KariMPrabhakar/Opioid_EMS_Analysis/blob/main/Distribution_of_Gender_in_Opioid_Use.png)
 
 # Narcan Related Demographics 
 
 ## Graph 5 - "Narcan Given Incidents Across Age Groups" - After exploring the relationship between age and Narcan given incidents using age bins, it is evident that age groups 19-30 and 31-45 have the highest counts of "Yes" responses to Narcan given across the age groups.
 
+![Narcan Given Incidents Across Age Groups](https://github.com/KariMPrabhakar/Opioid_EMS_Analysis/blob/main/Narcan_Given_Incidents_Across_Age_Groups.png)
+
 ## Graph 6 - Narcan Given Incidents Across Specific Populations - Based on the analysis of Narcan given incidents across specific populations, it is observed that the homeless population has the highest count.
 
+![Narcan Given Incidents Across Specific Populations](https://github.com/KariMPrabhakar/Opioid_EMS_Analysis/blob/main/Narcan_Given_Incidents_Across_Specific_Populations.png)
 
 ## Graph 7 : Narcan, or naloxone, is a medication that can rapidly reverse opioid overdose and is a key component in our efforts to address the opioid crisis. ## Note: Narcan may have been administered in incidents where opioid use was reported as 'No' due to factors such as observed symptoms, uncertainties in self-reporting, or other clinical considerations."Narcan Given Incidents Based on Time of Day"
 
+
+
 # Heat map of Narcan given incidents in Tempe, Arizona - Geographically, Marina Heights, Cameron Way, Hermosa Drive, and Veteran's Way College show higher narcan administration incidences in the Tempe, Arizona area. Consideration of location-specific trends could further enrich the understanding of the opioid crisis.
-file:///C:/Users/karia/Downloads/tempe_heatmap_narcanGiven.html
+
+![Heatmap of Narcan Given Incidents](https://github.com/KariMPrabhakar/Opioid_EMS_Analysis/blob/main/Tempe_Heat_Map.docx)
+
 
 
 # Conclusion
