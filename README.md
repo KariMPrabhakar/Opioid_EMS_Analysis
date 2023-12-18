@@ -121,6 +121,9 @@ predictions = model.predict(new_data)
 print(predictions)
 
 
+##Note: The model file (narcan_prediction_model.joblib) is available in this repository files as narcan_prediction_model.joblin. You can download it and integrate it into your projects.
+or can follow it here: https://github.com/KariMPrabhakar/Opioid_EMS_Analysis/blob/main/narcan_prediction_model.joblib
+
 
 ## Conclusion
 
