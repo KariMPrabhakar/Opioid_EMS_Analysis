@@ -61,6 +61,64 @@ Geographically, Marina Heights, Cameron Way, Hermosa Drive, and Veteran's Way Co
 To complement the insights gained from the exploratory analysis, a Decision Tree Classifier model was trained to predict whether Narcan was administered during opioid-related EMS calls. The model achieved a precision of 66%, correctly predicting Narcan administrations for 66% of the cases in the test set, a prediction that can be improved on. The predictive model incorporates features such as age, weekday, opioid use, and specific populations to make these predictions.
 
 
+## Model Training Code
+
+```python
+# I imported the required libraries
+import pandas as pd
+from sklearn.model_selection import train_test_split
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.metrics import accuracy_score, confusion_matrix, classification_report
+from sklearn.preprocessing import LabelEncoder
+import joblib
+
+# Loaded my dataset
+EMS_df = pd.read_csv('/content/drive/MyDrive/Opioid_EMS_Calls.csv')
+
+# Convert 'Narcan_Given' to a binary format
+EMS_df['Narcan_Given'] = EMS_df['Narcan_Given'].apply(lambda x: 1 if x == 'Yes' else 0)
+
+# Drop rows with missing values 
+data = EMS_df[['Age', 'Weekday', 'Opioid_Use', 'Spec_Pop', 'Narcan_Given']].dropna()
+
+# Convert age ranges to midpoint because ages were categorical ranges
+def age_range_to_midpoint(age_range):
+    if age_range == 'Unknown':
+        return None
+    start, end = map(int, age_range.split(' to '))
+    return (start + end) / 2
+
+data['Age'] = data['Age'].apply(age_range_to_midpoint)
+
+# Drop rows with missing values after age conversion
+data = data.dropna()
+
+# Encode categorical variables
+label_encoder = LabelEncoder()
+data['Weekday'] = label_encoder.fit_transform(data['Weekday'])
+data['Opioid_Use'] = label_encoder.fit_transform(data['Opioid_Use'])
+data['Spec_Pop'] = label_encoder.fit_transform(data['Spec_Pop'])
+
+# Separate features and target variable
+X = data[['Age', 'Weekday', 'Opioid_Use', 'Spec_Pop']]
+y = data['Narcan_Given']
+
+# Split the dataset into training and testing sets
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+
+# Next we code to build and train the model we will be using
+model = DecisionTreeClassifier(random_state=42)
+model.fit(X_train, y_train)
+
+# Saving the model to a file we can use for later training
+joblib.dump(model, '/content/drive/MyDrive/Opioid_EMS_Calls_Proj/narcan_prediction_model.joblib')
+
+
+# For new training 
+new_data = pd.DataFrame(...)  # Here, we can replace ... with the actual data
+predictions = model.predict(new_data)
+print(predictions)
 
 
 
