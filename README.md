@@ -55,7 +55,16 @@ Based on the analysis of Narcan given incidents across specific populations, it 
 Geographically, Marina Heights, Cameron Way, Hermosa Drive, and Veteran's Way College show higher narcan administration incidences in the Tempe, Arizona area. Consideration of location-specific trends could further enrich the understanding of the opioid crisis and narcan administration needs.
 
 
-# Conclusion
+
+## Predictive Model: Decision Tree Classifier
+
+To complement the insights gained from the exploratory analysis, a Decision Tree Classifier model was trained to predict whether Narcan was administered during opioid-related EMS calls. The model achieved a precision of 66%, correctly predicting Narcan administrations for 66% of the cases in the test set, a prediction that can be improved on. The predictive model incorporates features such as age, weekday, opioid use, and specific populations to make these predictions.
+
+
+
+
+
+## Conclusion
 
 This analysis has explored key factors associated with Narcan administration during opioid-related EMS calls. The insights gained contribute to a better understanding of how Narcan can be strategically employed to address opioid emergencies and, in turn, enhance our overall response to the opioid crisis.
 
