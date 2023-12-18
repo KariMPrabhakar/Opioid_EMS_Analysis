@@ -122,7 +122,8 @@ print(predictions)
 
 
 ##Note: The model file (narcan_prediction_model.joblib) is available in this repository files as narcan_prediction_model.joblin. You can download it and integrate it into your projects.
-or can follow it here: https://github.com/KariMPrabhakar/Opioid_EMS_Analysis/blob/main/narcan_prediction_model.joblib
+or can follow it here:
+https://github.com/KariMPrabhakar/Opioid_EMS_Analysis/blob/main/narcan_prediction_model.joblib
 
 
 ## Conclusion
@@ -130,5 +131,11 @@ or can follow it here: https://github.com/KariMPrabhakar/Opioid_EMS_Analysis/blo
 This analysis has explored key factors associated with Narcan administration during opioid-related EMS calls. The insights gained contribute to a better understanding of how Narcan can be strategically employed to address opioid emergencies and, in turn, enhance our overall response to the opioid crisis.
 
 By uncovering trends and demographic details related to the data collected, opioid-related EMS calls and the administration of Narcan has shown key insights into factors associated with these incidents. Demographically, there is a notable concentration of Narcan administrations among individuals aged 19-30 and 31-45, with a higher prevalence among the homeless population. Temporally, the afternoon and evening exhibit heightened occurrences of opioid-related emergencies, emphasizing the need for strategic resource allocation during these periods. Additionally, a temporal analysis across years suggests a rising trend in opioid-related incidents from 2017 to 2021, with a subsequent decline in 2022. Geographically, Marina Heights, Cameron Way, Hermosa Drive, and Veteran's Way College show higher narcan administration incidences in the Tempe, Arizona area. Consideration of location-specific trends could further enrich the understanding of the opioid crisis. The Decision Tree Classifier model, incorporating demographic and temporal features, contributes predictive capabilities with a 66% precision in determining Narcan administrations. These findings collectively illuminate the multifaceted nature of opioid-related emergencies, offering valuable insights for targeted interventions, resource optimization, and comprehensive emergency response planning across diverse demographic groups and temporal contexts.
+
+
+
+
+
+
 
 
