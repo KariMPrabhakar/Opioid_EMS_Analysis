@@ -5,7 +5,7 @@
 
 # Introduction
 
-The opioid crisis remains a critical public health concern, with far-reaching implications for communities. This analysis aims to shed light on key factors associated with the administration of Narcan during opioid-related EMS calls for the data collected in Tempe, Arizona. Narcan, or naloxone, is a medication that can rapidly reverse opioid overdose and is a key component in our efforts to address the opioid crisis. By understanding these factors, we can enhance our response to opioid incidents and, ultimately, save lives.
+The opioid crisis remains a critical public health concern, with far-reaching implications for communities. This analysis aims to shed light on key factors associated with the administration of Narcan during opioid-related EMS calls for the data collected in Tempe, Arizona. Narcan, or naloxone, is a medication that can rapidly reverse opioid overdose and is a key component in the ongoing efforts to address the opioid crisis. By understanding these factors, we can enhance our response to opioid incidents and, ultimately, save lives.
 
 # Graph 1: Temporal Distribution of Opioid Incidents - "Distribution of Opioid use Incidents Based on Time of Day."
 
